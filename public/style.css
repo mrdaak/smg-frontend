@@ -1,0 +1,16 @@
+.listing--minimal {
+    min-width: 400px;
+    max-width: 400px !important;
+}
+
+.listing__description {
+    white-space: pre-line;
+}
+
+.listing__description--minimal {
+    height: 100px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+}

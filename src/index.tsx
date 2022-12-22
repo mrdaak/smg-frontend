@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Router from "./router";
 import * as serviceWorker from "./serviceWorker";
+import 'bulma/css/bulma.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
